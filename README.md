@@ -2,66 +2,86 @@
 **Tech Stack:** Python | Pandas | Matplotlib | Healthcare Analytics
 
 
-An end-to-end healthcare data analytics project built using Python, focusing on transforming raw clinical data into structured insights through data cleaning, feature engineering, and visualization.
+An end-to-end healthcare data analytics pipeline built using Python (Pandas, Matplotlib), transforming raw clinical data into structured insights through data cleaning, feature engineering, and visualization.
+
 ## Project Overview
 
-This project focuses on analyzing clinical healthcare data to extract meaningful insights about patient conditions and encounter trends.
+## Project Overview
 
-An end-to-end data analytics pipeline was developed using Python, including data cleaning, transformation, feature engineering, aggregation, and visualization.
+This project analyzes clinical healthcare data to uncover insights into patient conditions and encounter trends.
 
-The project simulates a real-world healthcare analytics workflow, demonstrating how raw clinical data can be converted into structured, analysis-ready datasets for decision-making.
+It demonstrates a complete data analytics workflow, including data cleaning, transformation, feature engineering, aggregation, and visualization using Python.
+
+The goal is to convert raw clinical data into structured, analysis-ready datasets that support data-driven decision-making in healthcare.
+
+## Business Problem
+
 ## Business Problem
 
 Healthcare organizations generate large volumes of clinical data, but much of it remains underutilized due to inconsistent formatting, missing values, and lack of structured analysis.
 
-In this project, the challenge is to transform raw clinical data into a clean and structured format that enables meaningful analysis of patient conditions and trends over time.
+As a result, it becomes difficult for healthcare professionals and analysts to identify meaningful patterns in patient conditions and trends over time.
+
+This project addresses the challenge by transforming raw clinical data into a clean, structured format that enables reliable analysis and supports data-driven clinical and operational decision-making.
+
 
 Stakeholders such as healthcare analysts and decision-makers require clear, reliable insights to support better clinical and operational decisions.
+
 ## Objectives
 
 * Clean and preprocess raw clinical data to ensure consistency and reliability
-* Transform date fields into usable formats for analysis
+* Transform date fields into analysis-ready formats
 * Create new features such as patient age and encounter time components
 * Perform aggregations to analyze condition-level and time-based trends
-* Generate visualizations to communicate insights effectively
-* Build a structured and reusable data pipeline for healthcare analytics
+* Develop visualizations to communicate insights effectively
+* Build a structured and reusable data analytics pipeline
+
 ## Dataset Description
 
-The dataset consists of clinical healthcare records containing patient demographics, encounter details, and observation values.
+## Dataset Description
 
-Key fields include:
+The dataset contains clinical healthcare records, including patient demographics, encounter details, and observational measurements.
+
+### Key Fields:
 
 * `birth_date` – Patient date of birth
 * `encounter_date` – Date of clinical encounter
 * `condition` – Medical condition associated with the patient
 * `obs_value` – Observational measurement recorded during encounters
 
-The dataset required preprocessing due to missing values, inconsistent formats, and the need for feature extraction.
+The dataset required preprocessing due to missing values, inconsistent formats, and the need for feature engineering.
+
 ## Tools & Technologies
 
-* Python
-* Pandas
-* Matplotlib
-* Visual Studio Code
+* **Programming Language:** Python
+* **Libraries:** Pandas, Matplotlib
+* **Development Environment:** Visual Studio Code
+
 ## Data Cleaning & Preparation
 
-* Standardized column names for consistency
-* Removed duplicate records to ensure data integrity
+* Standardized column names to ensure consistency across the dataset
+* Removed duplicate records to maintain data integrity
 * Converted `birth_date` and `encounter_date` to datetime format
 * Handled missing values by removing records with missing `encounter_date`
 * Validated numerical fields such as `obs_value` for missing, zero, and negative values
+
 ## Feature Engineering
 
-* Created `age` feature using patient birth date
-* Categorized patients into `age_group` segments
-* Extracted `encounter_year`, `encounter_month`, and `encounter_day` from encounter date
-* Generated structured time-based features to support trend analysis
+* Derived `age` feature from patient birth date
+* Categorized patients into meaningful `age_group` segments
+* Extracted temporal features including `encounter_year`, `encounter_month`, and `encounter_day`
+* Structured time-based variables to enable trend and seasonal analysis
+
+
 ## Exploratory Data Analysis (EDA)
 
 * Analyzed distribution of observation values across different medical conditions
-* Created `condition_summary` dataset to compute average observation values by condition
-* Generated `monthly_trend` dataset to analyze trends over time
+* Computed average observation values using the `condition_summary` dataset
+* Examined time-based trends through the `monthly_trend` dataset
 * Identified patterns and variations in clinical observations across conditions and time periods
+
+## Visualizations
+
 ## Visualizations
 
 ### Condition-wise Observation Comparison
@@ -71,6 +91,7 @@ The dataset required preprocessing due to missing values, inconsistent formats, 
 ### Monthly Trend Analysis
 
 ![Monthly Trend](data/visuals/monthly_trend_chart.png)
+
 
 ## Key Insights
 
