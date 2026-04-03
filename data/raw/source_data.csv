@@ -1,0 +1,6 @@
+patient_id,gender,birth_date,encounter_id,encounter_date,encounter_type,observation,obs_value,unit,condition,medication
+1,Male,12/05/1980,101,10/01/2024,Outpatient,Blood Pressure,140,mmHg,Hypertension,Amlodipine
+2,Female,22/08/1990,102,12/01/2024,Inpatient,Glucose,180,mg/dL,Diabetes,Metformin
+3,Male,30/03/1975,103,15/01/2024,Outpatient,Heart Rate,95,bpm,Tachycardia,Propranolol
+4,Female,05/11/1985,104,18/01/2024,Outpatient,Temperature,38.5,C,Fever,Paracetamol
+5,Male,20/02/1968,105,20/01/2024,Inpatient,Oxygen Saturation,90,%,Hypoxia,Oxygen Therapy
