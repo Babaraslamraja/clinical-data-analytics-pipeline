@@ -1,4 +1,6 @@
 # Clinical Data Analytics Pipeline
+**Tech Stack:** Python | Pandas | Matplotlib | Healthcare Analytics
+
 
 An end-to-end healthcare data analytics project built using Python, focusing on transforming raw clinical data into structured insights through data cleaning, feature engineering, and visualization.
 ## Project Overview
@@ -62,13 +64,11 @@ The dataset required preprocessing due to missing values, inconsistent formats, 
 * Identified patterns and variations in clinical observations across conditions and time periods
 ## Visualizations
 
-### Sample Visualizations
-
-#### Condition-wise Observation Comparison
+### Condition-wise Observation Comparison
 
 ![Condition Chart](data/visuals/condition_bar_chart.png)
 
-#### Monthly Trend Analysis
+### Monthly Trend Analysis
 
 ![Monthly Trend](data/visuals/monthly_trend_chart.png)
 
@@ -76,9 +76,13 @@ The dataset required preprocessing due to missing values, inconsistent formats, 
 
 ## Business Impact
 
-* Enables healthcare providers to identify high-risk conditions through data trends
-* Supports data-driven decision-making for clinical planning
-* Improves interpretability of complex clinical datasets
+## Key Insights
+
+* Patients with diabetes show higher average observation values compared to hypertension
+* Observation values exhibit a consistent trend over time
+* Aggregated datasets simplify interpretation of clinical data
+* Feature engineering enables deeper analysis of patient demographics and trends
+
 
 ## Outputs
 
@@ -92,6 +96,8 @@ The following outputs were generated during the project:
 
 ## Project Structure
 
+## Project Structure
+
 CLINICAL_MODELING/
 ├── data/
 │   ├── raw/
@@ -101,7 +107,7 @@ CLINICAL_MODELING/
 │   └── data_transformation.py
 └── README.md
 
-## How to Run This Project
+
 
 ## How to Run This Project
 
@@ -141,9 +147,6 @@ python notebooks/data_transformation.py
 * Expand dataset to include more clinical variables and patient history
 * Automate the data pipeline for real-time data processing
 
-## Author
-
-**Dr Babar Aslam**
 ## Author
 
 **Dr Babar Aslam**
