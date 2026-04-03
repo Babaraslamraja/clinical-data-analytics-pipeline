@@ -100,7 +100,7 @@ CLINICAL_MODELING/
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/Babaraslamraja/clinical-data-analytics-pipeline
    ```
 
 2. Navigate to the project folder:
