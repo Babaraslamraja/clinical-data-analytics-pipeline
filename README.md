@@ -62,10 +62,16 @@ The dataset required preprocessing due to missing values, inconsistent formats, 
 * Identified patterns and variations in clinical observations across conditions and time periods
 ## Visualizations
 
-* Created bar chart to compare average observation values across medical conditions
-* Developed line chart to visualize monthly trends in observation values
-* Used Matplotlib for data visualization
-* Saved charts as PNG files in the `data/visuals` directory
+### Sample Visualizations
+
+#### Condition-wise Observation Comparison
+
+![Condition Chart](data/visuals/condition_bar_chart.png)
+
+#### Monthly Trend Analysis
+
+![Monthly Trend](data/visuals/monthly_trend_chart.png)
+
 ## Key Insights
 
 * Patients with diabetes show higher average observation values compared to those with hypertension
