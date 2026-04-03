@@ -131,7 +131,7 @@ CLINICAL_MODELING/
 
 ## Author
 
-Dr Babar Aslam
+**Dr Babar Aslam**
 PhD Virology & Immunology (NUST) | Pharmacist & Academic | Health Informatics Specialist | Medical Coding, HL7 & FHIR | Google Data Analytics & Cybersecurity | Sustainability & Health Equity
 
 Connect with me on LinkedIn: www.linkedin.com/in/babar-aslam-4b5b38392
