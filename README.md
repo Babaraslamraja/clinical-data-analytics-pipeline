@@ -85,16 +85,14 @@ The following outputs were generated during the project:
 ## Project Structure
 
 CLINICAL_MODELING/
-│
 ├── data/
 │   ├── raw/
 │   ├── processed/
 │   └── visuals/
-│
 ├── notebooks/
 │   └── data_transformation.py
-│
 └── README.md
+
 ## How to Run This Project
 
 1. Clone the repository:
