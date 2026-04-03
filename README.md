@@ -74,10 +74,12 @@ The dataset required preprocessing due to missing values, inconsistent formats, 
 
 ## Key Insights
 
-* Patients with diabetes show higher average observation values compared to those with hypertension
-* Observation values exhibit a consistent trend over time, indicating stable measurement patterns
-* Aggregated datasets simplify complex clinical data, making it easier to interpret and analyze
-* Feature engineering enables deeper analysis of patient demographics and time-based trends
+## Business Impact
+
+* Enables healthcare providers to identify high-risk conditions through data trends
+* Supports data-driven decision-making for clinical planning
+* Improves interpretability of complex clinical datasets
+
 ## Outputs
 
 The following outputs were generated during the project:
