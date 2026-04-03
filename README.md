@@ -103,31 +103,37 @@ CLINICAL_MODELING/
 
 ## How to Run This Project
 
+## How to Run This Project
+
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Babaraslamraja/clinical-data-analytics-pipeline
-   ```
+```bash
+git clone https://github.com/Babaraslamraja/clinical-data-analytics-pipeline
+```
 
 2. Navigate to the project folder:
 
-   ```bash
-   cd CLINICAL_MODELING
-   ```
+```bash
+cd CLINICAL_MODELING
+```
 
-3. Install required libraries:
+3. Install required libraries (run in terminal or command prompt):
 
-   ```bash
-   pip install pandas matplotlib
-   ```
+```bash
+pip install pandas matplotlib
+```
 
 4. Run the data transformation script:
 
-   ```bash
-   python notebooks/data_transformation.py
-   ```
+```bash
+python notebooks/data_transformation.py
+```
 
-5. Outputs will be generated in the `data/processed` and `data/visuals` folders
+5. Outputs will be generated in:
+
+* `data/processed`
+* `data/visuals`
+
 ## Future Improvements
 
 * Integrate interactive dashboards using tools like Power BI or Tableau
