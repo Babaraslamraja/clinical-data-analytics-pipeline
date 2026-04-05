@@ -6,15 +6,12 @@ An end-to-end healthcare data analytics pipeline built using Python (Pandas, Mat
 
 ## Project Overview
 
-## Project Overview
-
 This project analyzes clinical healthcare data to uncover insights into patient conditions and encounter trends.
 
 It demonstrates a complete data analytics workflow, including data cleaning, transformation, feature engineering, aggregation, and visualization using Python.
 
 The goal is to convert raw clinical data into structured, analysis-ready datasets that support data-driven decision-making in healthcare.
 
-## Business Problem
 
 ## Business Problem
 
@@ -36,7 +33,6 @@ Stakeholders such as healthcare analysts and decision-makers require clear, reli
 * Develop visualizations to communicate insights effectively
 * Build a structured and reusable data analytics pipeline
 
-## Dataset Description
 
 ## Dataset Description
 
@@ -80,7 +76,6 @@ The dataset required preprocessing due to missing values, inconsistent formats, 
 * Examined time-based trends through the `monthly_trend` dataset
 * Identified patterns and variations in clinical observations across conditions and time periods
 
-## Visualizations
 
 ## Visualizations
 
@@ -92,10 +87,6 @@ The dataset required preprocessing due to missing values, inconsistent formats, 
 
 ![Monthly Trend](data/visuals/monthly_trend_chart.png)
 
-
-## Key Insights
-
-## Business Impact
 
 ## Key Insights
 
@@ -114,8 +105,6 @@ The following outputs were generated during the project:
 * `monthly_trend.csv` – Time-based trend analysis
 * `final_dataset.csv` – Final enriched dataset with engineered features
 * Visualizations (PNG) – Charts for condition comparison and monthly trends
-
-## Project Structure
 
 ## Project Structure
 
