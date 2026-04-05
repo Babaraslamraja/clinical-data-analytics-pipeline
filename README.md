@@ -130,7 +130,7 @@ git clone https://github.com/Babaraslamraja/clinical-data-analytics-pipeline
 2. Navigate to the project folder:
 
 ```bash
-cd CLINICAL_MODELING
+cd clinical-data-analytics-pipeline
 ```
 
 3. Install required libraries (run in terminal or command prompt):
